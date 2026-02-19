@@ -1,0 +1,97 @@
+.page {
+  min-height: 100vh;
+  background: #0f2027;
+  font-family: Segoe UI, sans-serif;
+}
+.header {
+  background: #1a2f3f;
+  padding: 14px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #2a5060;
+}
+.logo {
+  color: #00e5c8;
+  font-size: 20px;
+  font-weight: bold;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.welcome {
+  color: #aacfcf;
+  font-size: 14px;
+}
+.logout-btn {
+  background: transparent;
+  border: 1px solid #00e5c8;
+  color: #00e5c8;
+  padding: 7px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+.main {
+  padding: 32px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.page-title {
+  color: #e0f0f0;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.table-wrapper {
+  background: #1a2f3f;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table thead {
+  background: #0f2027;
+}
+.table th {
+  padding: 14px 18px;
+  text-align: left;
+  color: #00e5c8;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.table tr {
+  border-bottom: 1px solid #2a5060;
+}
+.table td {
+  padding: 13px 18px;
+  color: #c8e0e0;
+  font-size: 14px;
+}
+.status-active    { color: #00e5c8; }
+.status-suspended { color: #f59e0b; }
+.status-inactive  { color: #6b7280; }
+.edit-btn {
+  background: rgba(59,130,246,0.15);
+  color: #60a5fa;
+  border: 1px solid rgba(59,130,246,0.3);
+  padding: 5px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 6px;
+  font-size: 13px;
+}
+.delete-btn {
+  background: rgba(239,68,68,0.12);
+  color: #f87171;
+  border: 1px solid rgba(239,68,68,0.25);
+  padding: 5px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+}
