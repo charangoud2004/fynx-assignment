@@ -2,6 +2,10 @@
   min-height: 100vh;
   background: #0f2027;
   font-family: Segoe UI, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
 .header {
   background: #1a2f3f;
@@ -10,6 +14,9 @@
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #2a5060;
+  width: 100%;
+  position: sticky;
+  top: 0;
 }
 .logo {
   color: #00e5c8;
@@ -94,4 +101,8 @@
   border-radius: 5px;
   cursor: pointer;
   font-size: 13px;
+}
+
+body {
+  margin: 0;
 }
